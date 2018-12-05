@@ -13,18 +13,11 @@ namespace CarRentalWebApplication.Controllers
             return View();
         }
 
-        public ActionResult Employees()
+        public ActionResult NewRental()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
-        public ActionResult Users()
-        {
-            ViewBag.Message = "Your application description page.";
 
-            return View();
-        }
 
         public ActionResult About()
         {
@@ -32,5 +25,6 @@ namespace CarRentalWebApplication.Controllers
 
             return View();
         }
+       
     }
 }
