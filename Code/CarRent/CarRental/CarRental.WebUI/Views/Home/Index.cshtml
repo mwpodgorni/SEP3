@@ -1,0 +1,41 @@
+﻿@model CarRental.Core.ViewModels.CarListViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Available Cars</h1>
+
+<div class="col-md-2">
+    <h4>Filter by Category</h4>
+    <div class="list-group">
+        @Html.ActionLink("All","Index",null, new {@class =  Request["Category"]==null? "list-group-item active" : "list-group-item"})
+        @foreach (var tp in Model.CarTypes)
+        {
+            @Html.ActionLink(tp.Type, "Index", new { type = tp.Type },new { @class = Request["Category"] == tp.Type ? "list-group-item active" : "list-group-item" })
+        }
+
+    </div>
+</div>
+<div class="col-md-10">
+
+    @foreach (var car in Model.Cars)
+    {
+
+        <div class="col-md-6" style="height:450px;padding:10px;border:solid thin whitesmoke">
+            <div class="col-md-12">
+                <img class="img" style="height:250px" src="~/Content/CarImages/@car.Image" />
+            </div>
+            <div class="col-md-12">
+                <strong>@Html.ActionLink(car.Manufacturer + " " + car.Model, "Details", new { id = car.Id })</strong>
+            </div>
+            <div class="col-md-12">
+                <h4>@car.Type</h4>
+            </div>
+            <div class="col-md-12">
+                <a href="#" class="btn btn-default">Add to Basket</a>
+            </div>
+        </div>
+    }
+</div>
+<div class="col-md-12 clearfix"/>
+

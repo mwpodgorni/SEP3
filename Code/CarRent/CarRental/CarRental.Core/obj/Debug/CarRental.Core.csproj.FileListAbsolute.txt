@@ -1,0 +1,6 @@
+C:\DNP\SEP\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.csprojAssemblyReference.cache
+C:\DNP\SEP\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.csproj.CoreCompileInputs.cache
+C:\DNP\SEP\CarRent\CarRental\CarRental.Core\bin\Debug\CarRental.Core.dll
+C:\DNP\SEP\CarRent\CarRental\CarRental.Core\bin\Debug\CarRental.Core.pdb
+C:\DNP\SEP\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.dll
+C:\DNP\SEP\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.pdb
