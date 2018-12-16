@@ -1,0 +1,15 @@
+﻿@model CarRental_R.ViewModels.RentViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Car.PlatesNumber</h2>
+
+<ul>
+    @foreach (var customer in Model.Customers)
+    {
+        <li>@customer.IdNumber</li>
+    }
+
+</ul>
