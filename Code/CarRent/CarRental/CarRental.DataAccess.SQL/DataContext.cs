@@ -21,6 +21,7 @@ namespace CarRental.DataAccess.SQL
         public DbSet<CarType> CarTypes { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Address> Addresses { get; set; }
+        public DbSet<Rent> Rents { get; set; }
 
     }
 }

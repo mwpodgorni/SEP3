@@ -89,6 +89,14 @@
     <Compile Include="Migrations\201812171449444_AddedDtos.Designer.cs">
       <DependentUpon>201812171449444_AddedDtos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812171613526_SoSickOfThisShit.cs" />
+    <Compile Include="Migrations\201812171613526_SoSickOfThisShit.Designer.cs">
+      <DependentUpon>201812171613526_SoSickOfThisShit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812171631490_SoSickOfThisShitV2.cs" />
+    <Compile Include="Migrations\201812171631490_SoSickOfThisShitV2.Designer.cs">
+      <DependentUpon>201812171631490_SoSickOfThisShitV2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLRepository.cs" />
@@ -133,6 +141,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812171449444_AddedDtos.resx">
       <DependentUpon>201812171449444_AddedDtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171613526_SoSickOfThisShit.resx">
+      <DependentUpon>201812171613526_SoSickOfThisShit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171631490_SoSickOfThisShitV2.resx">
+      <DependentUpon>201812171631490_SoSickOfThisShitV2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

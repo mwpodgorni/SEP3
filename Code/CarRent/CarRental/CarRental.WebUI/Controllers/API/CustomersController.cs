@@ -23,30 +23,32 @@ namespace CarRental.WebUI.Controllers.API
 
         // GET /api/customers
         [HttpGet]
-        public IEnumerable<CustomerDto> GetCustomers()
+        public IHttpActionResult GetCustomers()
         {
-            return _context.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>);
+            var customerDtos =  _context.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>);
+
+            return Ok(customerDtos);
         }
 
 
         //GET /api/customers/1
         [HttpGet]
-        public CustomerDto GetCustomer(string id)
+        public IHttpActionResult GetCustomer(string id)
         {
             var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
 
-            if(customer == null)
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+            if (customer == null)
+                return NotFound();
 
-            return Mapper.Map<Customer,CustomerDto>(customer);
+            return Ok(Mapper.Map<Customer,CustomerDto>(customer));
         }
 
         //POST /api/customers
         [HttpPost]
-        public CustomerDto CreateCustomer(CustomerDto customerDto)
+        public IHttpActionResult CreateCustomer(CustomerDto customerDto)
         {
             if (!ModelState.IsValid)
-                throw new HttpResponseException(HttpStatusCode.BadRequest);
+                return BadRequest();
 
             var customer = Mapper.Map<CustomerDto, Customer>(customerDto);
 
@@ -55,12 +57,12 @@ namespace CarRental.WebUI.Controllers.API
 
             customerDto.Id = customer.Id;
 
-            return customerDto;
+            return Created(new Uri(Request.RequestUri+"/"+customer.Id), customerDto);
         }
 
         //PUT /api/customers/1
         [HttpPut]
-        public void UpdateCustomer(string id, CustomerDto customerDto)
+        public IHttpActionResult UpdateCustomer(string id, CustomerDto customerDto)
         {
             if (!ModelState.IsValid)
                 throw new HttpResponseException(HttpStatusCode.BadRequest);
@@ -73,11 +75,13 @@ namespace CarRental.WebUI.Controllers.API
             Mapper.Map<CustomerDto, Customer>(customerDto, customerToEdit);
 
             _context.SaveChanges();
+
+            return Ok();
         }
 
         // DELETE /api/customers/1
         [HttpDelete]
-        public void DeleteCustomer(string id)
+        public IHttpActionResult DeleteCustomer(string id)
         {
             var customerToRemove = _context.Customers.SingleOrDefault(c => c.Id == id);
 
@@ -86,6 +90,8 @@ namespace CarRental.WebUI.Controllers.API
 
             _context.Customers.Remove(customerToRemove);
             _context.SaveChanges();
+
+            return Ok();
         }
 
     }

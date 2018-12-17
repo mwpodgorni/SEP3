@@ -65,3 +65,5 @@ E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Deb
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.AddedAddressToCustomerV2.resources
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.AddedAddressToCustomerV3.resources
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.AddedDtos.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.SoSickOfThisShit.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.SoSickOfThisShitV2.resources
