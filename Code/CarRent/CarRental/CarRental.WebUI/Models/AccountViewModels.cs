@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using CarRental.Core.Models;
 
 namespace CarRental.WebUI.Models
 {
@@ -80,17 +81,13 @@ namespace CarRental.WebUI.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
         [Required]
+        [Display(Name = "First Name")]
         public string FirstName { get; set; }
         [Required]
+        [Display(Name = "Last Name")]
         public string LastName { get; set; }
         [Required]
-        public string Street { get; set; }
-        [Required]
-        public string City { get; set; }
-        [Required]
-        public string Country { get; set; }
-        [Required]
-        public string ZipCode { get; set; }
+        public Address Address { get; set; }
     }
 
     public class ResetPasswordViewModel

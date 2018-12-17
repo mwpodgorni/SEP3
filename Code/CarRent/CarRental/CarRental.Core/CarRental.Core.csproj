@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.1.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.1.0\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -43,19 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\IBasketService.cs" />
     <Compile Include="Contracts\IRepository.cs" />
+    <Compile Include="Dtos\AddressDto.cs" />
+    <Compile Include="Dtos\CarDto.cs" />
+    <Compile Include="Dtos\CarTypeDto.cs" />
+    <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Models\Address.cs" />
     <Compile Include="Models\BaseEntity.cs" />
-    <Compile Include="Models\Basket.cs" />
-    <Compile Include="Models\BasketItem.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\CarType.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Rent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\BasketItemViewModel.cs" />
-    <Compile Include="ViewModels\BasketSummaryViewModel.cs" />
     <Compile Include="ViewModels\CarListViewModel.cs" />
     <Compile Include="ViewModels\CarManagerViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

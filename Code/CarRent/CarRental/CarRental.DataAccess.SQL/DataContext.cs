@@ -14,14 +14,13 @@ namespace CarRental.DataAccess.SQL
 
         public DataContext() : base("DefaultConnection")
         {
-                
+            Database.SetInitializer<DataContext>(new CreateDatabaseIfNotExists<DataContext>());
         }
 
         public DbSet<Car> Cars { get; set; }
         public DbSet<CarType> CarTypes { get; set; }
-        public DbSet<Basket> Baskets { get; set; }
-        public DbSet<BasketItem> BasketItems { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Address> Addresses { get; set; }
 
     }
 }

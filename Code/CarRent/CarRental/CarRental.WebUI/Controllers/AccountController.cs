@@ -158,9 +158,15 @@ namespace CarRental.WebUI.Controllers
                         FirstName = model.FirstName,
                         LastName = model.LastName,
                         Email = model.Email,
-                        Street = model.Street,
-                        City = model.City,
-                        Country = model.Country,
+                        Address = new Address()
+                        {
+                            Country = model.Address.Country,
+                            City = model.Address.City,
+                            House = model.Address.House,
+                            Street = model.Address.Street,
+                            Postcode = model.Address.Postcode
+
+                        },
                         UserId = user.Id
                     };
 

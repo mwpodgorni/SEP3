@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6652d039-db93-4a79-a93e-a46291774888" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/CarRental/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CarRental/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CarRental/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CarRental/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CarRental/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CarRental/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.Core/obj/Debug/CarRental.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.Core/obj/Debug/CarRental.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.Core/obj/Debug/CarRental.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.Core/obj/Debug/CarRental.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.DataAccess.SQL/obj/Debug/CarRental.DataAccess.SQL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.DataAccess.SQL/obj/Debug/CarRental.DataAccess.SQL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.DataAccess.SQL/obj/Debug/CarRental.DataAccess.SQL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.DataAccess.SQL/obj/Debug/CarRental.DataAccess.SQL.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.Services/obj/Debug/CarRental.Services.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.Services/obj/Debug/CarRental.Services.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.Services/obj/Debug/CarRental.Services.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.Services/obj/Debug/CarRental.Services.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.WebUI.Tests/obj/Debug/CarRental.WebUI.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.WebUI.Tests/obj/Debug/CarRental.WebUI.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.WebUI.Tests/obj/Debug/CarRental.WebUI.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.WebUI.Tests/obj/Debug/CarRental.WebUI.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.WebUI/obj/Debug/CarRental.WebUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.WebUI/obj/Debug/CarRental.WebUI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.WebUI/obj/Debug/CarRental.WebUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.WebUI/obj/Debug/CarRental.WebUI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/.vs/CarRental/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/.vs/CarRental/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/.vs/CarRental/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/.vs/CarRental/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/.vs/CarRental/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/.vs/CarRental/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/.vs/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/.vs/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/CarRental_R.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/CarRental_R.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/BankTransfer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/Cash.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/CreditCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/MobilePay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/RegisteredCustomer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Models/RegisteredCustomer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/bin/CarRental_R.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/bin/CarRental_R.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/bin/CarRental_R.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/bin/CarRental_R.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/bin/CarRental_R.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/bin/CarRental_R.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/CarRental_R.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarRental_R/CarRental_R/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1275562310">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="config" value="1" />
+          <entry key="cs" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="10" />
+          <entry key="Config" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CarRental.Core/Models/BaseEntity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <marker date="1544675399229" expanded="false" signature="6:115" ph="..." />
+                <marker date="1544675399229" expanded="true" signature="148:435" ph="{...}" />
+                <marker date="1544675399229" expanded="true" signature="187:433" ph="{...}" />
+                <marker date="1544675399229" expanded="true" signature="315:427" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CarRental.Core/Models/Car.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <marker date="1544716899841" expanded="false" signature="6:189" ph="..." />
+                <marker date="1544716899841" expanded="true" signature="222:638" ph="{...}" />
+                <marker date="1544716899841" expanded="true" signature="258:636" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CarRental.Core/Models/CarType.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <marker date="1544671779967" expanded="false" signature="6:115" ph="..." />
+                <marker date="1544671779967" expanded="true" signature="148:243" ph="{...}" />
+                <marker date="1544671779967" expanded="true" signature="188:241" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CarRental.Core/Models/Customer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <marker date="1544775604396" expanded="false" signature="6:115" ph="..." />
+                <marker date="1544775604396" expanded="true" signature="148:553" ph="{...}" />
+                <marker date="1544775604396" expanded="true" signature="189:551" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CarRental.Core/ViewModels/CarManagerViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <marker date="1544674906715" expanded="true" signature="6:144" ph="..." />
+                <marker date="1544674906715" expanded="true" signature="181:331" ph="{...}" />
+                <marker date="1544674906715" expanded="true" signature="220:329" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CarRental.DataAccess.SQL/DataContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="8" />
+              <folding>
+                <marker date="1544775253690" expanded="true" signature="6:210" ph="..." />
+                <marker date="1544775253690" expanded="true" signature="246:663" ph="{...}" />
+                <marker date="1544775253690" expanded="true" signature="289:661" ph="{...}" />
+                <marker date="1544775253690" expanded="true" signature="353:390" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CarRental.DataAccess.SQL/packages.config">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CarRental.DataAccess.SQL/SQLRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+              <folding>
+                <marker date="1544674893186" expanded="true" signature="6:202" ph="..." />
+                <marker date="1544674893186" expanded="true" signature="238:1246" ph="{...}" />
+                <marker date="1544674893186" expanded="true" signature="312:1244" ph="{...}" />
+                <marker date="1544674893186" expanded="true" signature="440:539" ph="{...}" />
+                <marker date="1544674893186" expanded="true" signature="582:628" ph="{...}" />
+                <marker date="1544674893186" expanded="true" signature="658:713" ph="{...}" />
+                <marker date="1544674893186" expanded="true" signature="752:929" ph="{...}" />
+                <marker date="1544674893186" expanded="true" signature="963:1018" ph="{...}" />
+                <marker date="1544674893186" expanded="true" signature="1051:1097" ph="{...}" />
+                <marker date="1544674893186" expanded="true" signature="1130:1238" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CarRental.Core/Contracts/IRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <marker date="1544674918038" expanded="false" signature="6:144" ph="..." />
+                <marker date="1544674918038" expanded="true" signature="180:423" ph="{...}" />
+                <marker date="1544674918038" expanded="true" signature="239:421" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CarRental.Core/ViewModels/CarListViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <marker date="1544711018270" expanded="false" signature="6:144" ph="..." />
+                <marker date="1544711018270" expanded="true" signature="181:341" ph="{...}" />
+                <marker date="1544711018270" expanded="true" signature="217:339" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CarRental.Core/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.Core/Models/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.DataAccess.SQL/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.Core/ViewModels/CarManagerViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.Core/ViewModels/CarListViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.Core/Contracts/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.DataAccess.SQL/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.Core/Models/CarType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.DataAccess.SQL/SQLRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.Services/BasketService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.Core/Models/Car.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2263" />
+    <option name="y" value="25" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CarRental" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CarRental" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CarRental.Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CarRental" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CarRental.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Contracts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CarRental" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CarRental.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CarRental" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CarRental.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ViewModels" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CarRental" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CarRental.DataAccess.SQL" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6652d039-db93-4a79-a93e-a46291774888" name="Default Changelist" comment="" />
+      <created>1544980666111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544980666111</updated>
+      <workItem from="1544980669473" duration="1396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1396000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1913" y="-7" width="1166" height="694" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24864376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CarRental.Services/BasketService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.Core/Models/BaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1544675399229" expanded="false" signature="6:115" ph="..." />
+            <marker date="1544675399229" expanded="true" signature="148:435" ph="{...}" />
+            <marker date="1544675399229" expanded="true" signature="187:433" ph="{...}" />
+            <marker date="1544675399229" expanded="true" signature="315:427" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.Core/Models/Car.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1544716899841" expanded="false" signature="6:189" ph="..." />
+            <marker date="1544716899841" expanded="true" signature="222:638" ph="{...}" />
+            <marker date="1544716899841" expanded="true" signature="258:636" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.Core/Models/CarType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1544671779967" expanded="false" signature="6:115" ph="..." />
+            <marker date="1544671779967" expanded="true" signature="148:243" ph="{...}" />
+            <marker date="1544671779967" expanded="true" signature="188:241" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.Core/Models/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <marker date="1544775604396" expanded="false" signature="6:115" ph="..." />
+            <marker date="1544775604396" expanded="true" signature="148:553" ph="{...}" />
+            <marker date="1544775604396" expanded="true" signature="189:551" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.Core/ViewModels/CarListViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1544711018270" expanded="false" signature="6:144" ph="..." />
+            <marker date="1544711018270" expanded="true" signature="181:341" ph="{...}" />
+            <marker date="1544711018270" expanded="true" signature="217:339" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.Core/ViewModels/CarManagerViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1544674906715" expanded="true" signature="6:144" ph="..." />
+            <marker date="1544674906715" expanded="true" signature="181:331" ph="{...}" />
+            <marker date="1544674906715" expanded="true" signature="220:329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.DataAccess.SQL/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.Core/Contracts/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1544674918038" expanded="false" signature="6:144" ph="..." />
+            <marker date="1544674918038" expanded="true" signature="180:423" ph="{...}" />
+            <marker date="1544674918038" expanded="true" signature="239:421" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.DataAccess.SQL/SQLRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <marker date="1544674893186" expanded="true" signature="6:202" ph="..." />
+            <marker date="1544674893186" expanded="true" signature="238:1246" ph="{...}" />
+            <marker date="1544674893186" expanded="true" signature="312:1244" ph="{...}" />
+            <marker date="1544674893186" expanded="true" signature="440:539" ph="{...}" />
+            <marker date="1544674893186" expanded="true" signature="582:628" ph="{...}" />
+            <marker date="1544674893186" expanded="true" signature="658:713" ph="{...}" />
+            <marker date="1544674893186" expanded="true" signature="752:929" ph="{...}" />
+            <marker date="1544674893186" expanded="true" signature="963:1018" ph="{...}" />
+            <marker date="1544674893186" expanded="true" signature="1051:1097" ph="{...}" />
+            <marker date="1544674893186" expanded="true" signature="1130:1238" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarRental.DataAccess.SQL/DataContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
+          <folding>
+            <marker date="1544775253690" expanded="true" signature="6:210" ph="..." />
+            <marker date="1544775253690" expanded="true" signature="246:663" ph="{...}" />
+            <marker date="1544775253690" expanded="true" signature="289:661" ph="{...}" />
+            <marker date="1544775253690" expanded="true" signature="353:390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

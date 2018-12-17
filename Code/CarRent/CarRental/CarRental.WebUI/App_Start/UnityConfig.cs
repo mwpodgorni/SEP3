@@ -1,7 +1,6 @@
 using CarRental.Core.Contracts;
 using CarRental.Core.Models;
 using CarRental.DataAccess.SQL;
-using CarRental.Services;
 using System;
 
 using Unity;
@@ -48,10 +47,7 @@ namespace CarRental.WebUI
             // container.RegisterType<IProductRepository, ProductRepository>();
             container.RegisterType<IRepository<Car>, SQLRepository<Car>>();
             container.RegisterType<IRepository<CarType>, SQLRepository<CarType>>();
-            container.RegisterType<IRepository<Basket>, SQLRepository<Basket>>();
-            container.RegisterType<IRepository<BasketItem>, SQLRepository<BasketItem>>();
             container.RegisterType<IRepository<Customer>, SQLRepository<Customer>>();
-            container.RegisterType<IBasketService, BasketService>();
 
         }
     }

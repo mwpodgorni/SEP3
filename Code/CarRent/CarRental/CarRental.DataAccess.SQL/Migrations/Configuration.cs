@@ -9,7 +9,7 @@ namespace CarRental.DataAccess.SQL.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(CarRental.DataAccess.SQL.DataContext context)

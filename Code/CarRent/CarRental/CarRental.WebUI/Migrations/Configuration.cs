@@ -9,7 +9,7 @@ namespace CarRental.WebUI.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(CarRental.WebUI.Models.ApplicationDbContext context)

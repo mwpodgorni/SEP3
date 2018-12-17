@@ -13,6 +13,7 @@ namespace CarRental.Core.Models
         [MinLength(2,ErrorMessage = "Manufacturer name is too short!")]
         public string Manufacturer { get; set; }
         public string Model { get; set; }
+        public int ProductionYear { get; set; }
         public string Color { get; set; }
         [DisplayName("Car Type")]
         public string Type { get; set; }

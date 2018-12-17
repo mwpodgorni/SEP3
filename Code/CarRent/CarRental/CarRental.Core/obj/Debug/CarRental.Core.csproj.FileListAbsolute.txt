@@ -10,3 +10,12 @@ C:\Users\Elitebook\Desktop\SEM3\SEP3\Code\CarRent\CarRental\CarRental.Core\obj\D
 C:\Users\Elitebook\Desktop\SEM3\SEP3\Code\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.csproj.CoreCompileInputs.cache
 C:\Users\Elitebook\Desktop\SEM3\SEP3\Code\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.dll
 C:\Users\Elitebook\Desktop\SEM3\SEP3\Code\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.pdb
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Core\bin\Debug\CarRental.Core.dll
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Core\bin\Debug\CarRental.Core.pdb
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.csprojAssemblyReference.cache
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.csproj.CoreCompileInputs.cache
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.dll
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.pdb
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Core\bin\Debug\AutoMapper.dll
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Core\bin\Debug\AutoMapper.xml
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Core\obj\Debug\CarRental.Core.csproj.CopyComplete

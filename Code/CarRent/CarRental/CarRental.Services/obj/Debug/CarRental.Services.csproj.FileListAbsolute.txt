@@ -16,3 +16,12 @@ C:\Users\Elitebook\Desktop\SEM3\SEP3\Code\CarRent\CarRental\CarRental.Services\o
 C:\Users\Elitebook\Desktop\SEM3\SEP3\Code\CarRent\CarRental\CarRental.Services\obj\Debug\CarRental.Services.csproj.CopyComplete
 C:\Users\Elitebook\Desktop\SEM3\SEP3\Code\CarRent\CarRental\CarRental.Services\obj\Debug\CarRental.Services.dll
 C:\Users\Elitebook\Desktop\SEM3\SEP3\Code\CarRent\CarRental\CarRental.Services\obj\Debug\CarRental.Services.pdb
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Services\bin\Debug\CarRental.Services.dll
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Services\bin\Debug\CarRental.Services.pdb
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Services\bin\Debug\CarRental.Core.dll
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Services\bin\Debug\CarRental.Core.pdb
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Services\obj\Debug\CarRental.Services.csprojAssemblyReference.cache
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Services\obj\Debug\CarRental.Services.csproj.CoreCompileInputs.cache
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Services\obj\Debug\CarRental.Services.csproj.CopyComplete
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Services\obj\Debug\CarRental.Services.dll
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.Services\obj\Debug\CarRental.Services.pdb

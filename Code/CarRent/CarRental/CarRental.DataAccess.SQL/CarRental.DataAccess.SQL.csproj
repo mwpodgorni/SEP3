@@ -73,6 +73,22 @@
     <Compile Include="Migrations\201812140832370_CarTypes.Designer.cs">
       <DependentUpon>201812140832370_CarTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812171246145_AddedAddressToCustomer.cs" />
+    <Compile Include="Migrations\201812171246145_AddedAddressToCustomer.Designer.cs">
+      <DependentUpon>201812171246145_AddedAddressToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812171250095_AddedAddressToCustomerV2.cs" />
+    <Compile Include="Migrations\201812171250095_AddedAddressToCustomerV2.Designer.cs">
+      <DependentUpon>201812171250095_AddedAddressToCustomerV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812171301319_AddedAddressToCustomerV3.cs" />
+    <Compile Include="Migrations\201812171301319_AddedAddressToCustomerV3.Designer.cs">
+      <DependentUpon>201812171301319_AddedAddressToCustomerV3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812171449444_AddedDtos.cs" />
+    <Compile Include="Migrations\201812171449444_AddedDtos.Designer.cs">
+      <DependentUpon>201812171449444_AddedDtos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLRepository.cs" />
@@ -105,6 +121,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812140832370_CarTypes.resx">
       <DependentUpon>201812140832370_CarTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171246145_AddedAddressToCustomer.resx">
+      <DependentUpon>201812171246145_AddedAddressToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171250095_AddedAddressToCustomerV2.resx">
+      <DependentUpon>201812171250095_AddedAddressToCustomerV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171301319_AddedAddressToCustomerV3.resx">
+      <DependentUpon>201812171301319_AddedAddressToCustomerV3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171449444_AddedDtos.resx">
+      <DependentUpon>201812171449444_AddedDtos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
