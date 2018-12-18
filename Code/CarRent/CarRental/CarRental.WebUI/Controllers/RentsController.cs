@@ -9,7 +9,6 @@ using CarRental.DataAccess.SQL;
 
 namespace CarRental.WebUI.Controllers
 {
-    [Authorize]
     public class RentsController : Controller
     {
         private DataContext context;
@@ -27,17 +26,28 @@ namespace CarRental.WebUI.Controllers
             return View(rents);
         }
 
+        public ActionResult Create()
+        {
+            Rent rent = new Rent();
+
+            rent.Car = new Car();
+            rent.Customer = context.Customers.SingleOrDefault(c => c.UserId == User.Identity.Name); ;
+
+            return View(rent);
+        }
+
         [HttpPost]
-        public ActionResult Create(string carId, Rent rent)
+        public ActionResult Create(Car carToRent)
         {
             if (!ModelState.IsValid)
                 return View();
 
-            var carToRent = context.Cars.SingleOrDefault(c => c.Id == carId);
+            //var carToRent = context.Cars.SingleOrDefault(c => c.Id == carId);
 
             if (carToRent == null)
                 return Content($"Car not found!");
 
+            var rent = new Rent();
 
             rent.Car = carToRent;
 

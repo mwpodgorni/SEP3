@@ -82,9 +82,10 @@ namespace CarRental.WebUI.Controllers
 
         //    return RedirectToAction("Create","Rents");
         //}
-        public ActionResult Rent(string id)
+        [Authorize]
+        public ActionResult Rent(Car car)
         {
-            return RedirectToAction("Create", "Rents");
+            return RedirectToAction("Create", "Rents", new {carToRent = car});
         }
     }
 }
