@@ -29,7 +29,7 @@ namespace CarRental.WebUI.Controllers
 
         public ActionResult Create()
         {
-            CarManagerViewModel viewModel = new CarManagerViewModel();
+            var viewModel = new CarManagerViewModel();
 
             viewModel.Car = new Car();
             viewModel.CarTypes = carTypes.Collection();
@@ -39,9 +39,10 @@ namespace CarRental.WebUI.Controllers
         [HttpPost]
         public ActionResult Create(Car car, HttpPostedFileBase file)
         {
+            
             if (!ModelState.IsValid)
             {
-                return View(car);
+                return Content("Model State is invalid!");
             }
             else
             {
@@ -56,6 +57,20 @@ namespace CarRental.WebUI.Controllers
                 return RedirectToAction("Index");
             }
 
+        }
+
+        public ActionResult Details(string Id)
+        {
+            var car = context.Find(Id);
+
+            if (car == null)
+            {
+                return HttpNotFound();
+            }
+            else
+            {
+                return View(car);
+            }
         }
 
         public ActionResult Edit(string Id)
@@ -99,8 +114,10 @@ namespace CarRental.WebUI.Controllers
 
                 carToEdit.Manufacturer = car.Manufacturer;
                 carToEdit.Model = car.Model;
+                carToEdit.ProductionYear = car.ProductionYear;
                 carToEdit.Color = car.Color;
                 carToEdit.Type = car.Type;
+                carToEdit.PricePerDay = car.PricePerDay;
 
                 context.Commit();
 

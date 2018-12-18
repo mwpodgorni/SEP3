@@ -68,3 +68,8 @@ E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Deb
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.SoSickOfThisShit.resources
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.SoSickOfThisShitV2.resources
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.InitialRentingTry.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.ImpovedDataAnnotations.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.TestMigration.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.CarImageNotRequiredAnymoreAndRangeForProductionYearAdded.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.AddedDisplayNames.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.FixedNaming.resources

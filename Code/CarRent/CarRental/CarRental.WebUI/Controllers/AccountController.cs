@@ -167,7 +167,8 @@ namespace CarRental.WebUI.Controllers
                             Postcode = model.Address.Postcode
 
                         },
-                        UserId = user.Id
+                        UserId = user.Id,
+                        AddressId = model.Address.Id
                     };
 
                     customerRepository.Insert(customer);

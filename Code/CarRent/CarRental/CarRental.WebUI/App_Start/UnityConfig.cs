@@ -48,7 +48,8 @@ namespace CarRental.WebUI
             container.RegisterType<IRepository<Car>, SQLRepository<Car>>();
             container.RegisterType<IRepository<CarType>, SQLRepository<CarType>>();
             container.RegisterType<IRepository<Customer>, SQLRepository<Customer>>();
-
+            container.RegisterType<IRepository<Rent>, SQLRepository<Rent>>();
+            container.RegisterType<IRepository<Address>, SQLRepository<Address>>();
         }
     }
 }

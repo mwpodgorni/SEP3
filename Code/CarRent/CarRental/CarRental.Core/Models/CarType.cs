@@ -10,14 +10,9 @@ namespace CarRental.Core.Models
 {
     public class CarType : BaseEntity
     {
-        [MinLength(2, ErrorMessage = "Manufacturer name is too short!")]
-        public string Manufacturer { get; set; }
-        public string Model { get; set; }
-        public int ProductionYear { get; set; }
-        public string Color { get; set; }
-        [DisplayName("Car Type")]
+        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+        [StringLength(15)]
+        [Required]
         public string Type { get; set; }
-        public decimal Price { get; set; }
-        public string Image { get; set; }
     }
 }

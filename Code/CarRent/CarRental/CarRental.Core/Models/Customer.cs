@@ -11,15 +11,25 @@ namespace CarRental.Core.Models
     public class Customer : BaseEntity
     {
         public string UserId { get; set; }
+
         [Required]
         [Display(Name = "First Name")]
+        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
         public string FirstName { get; set; }
+
         [Display(Name = "Last Name")]
-        public string LastName { get; set; }
+        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
         [Required]
+        public string LastName { get; set; }
+
+        [Required]
+        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+        [EmailAddress(ErrorMessage = "The email address is not valid")]
         public string Email { get; set; }
+
         [Required]
         public Address Address { get; set; }
+
         [Required]
         [Display(Name = "Address")]
         public string AddressId { get; set; }

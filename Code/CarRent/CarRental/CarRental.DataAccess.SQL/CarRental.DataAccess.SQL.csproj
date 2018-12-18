@@ -101,6 +101,27 @@
     <Compile Include="Migrations\201812181117538_InitialRentingTry.Designer.cs">
       <DependentUpon>201812181117538_InitialRentingTry.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812181503157_ImpovedDataAnnotations.cs" />
+    <Compile Include="Migrations\201812181503157_ImpovedDataAnnotations.Designer.cs">
+      <DependentUpon>201812181503157_ImpovedDataAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812181624153_TestMigration.cs" />
+    <Compile Include="Migrations\201812181624153_TestMigration.Designer.cs">
+      <DependentUpon>201812181624153_TestMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812181627037_CarImageNotRequiredAnymore\RangeForProductionYearAdded.cs" />
+    <Compile Include="Migrations\201812181627299_CarImageNotRequiredAnymoreAndRangeForProductionYearAdded.cs" />
+    <Compile Include="Migrations\201812181627299_CarImageNotRequiredAnymoreAndRangeForProductionYearAdded.Designer.cs">
+      <DependentUpon>201812181627299_CarImageNotRequiredAnymoreAndRangeForProductionYearAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812181636501_AddedDisplayNames.cs" />
+    <Compile Include="Migrations\201812181636501_AddedDisplayNames.Designer.cs">
+      <DependentUpon>201812181636501_AddedDisplayNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812181638533_FixedNaming.cs" />
+    <Compile Include="Migrations\201812181638533_FixedNaming.Designer.cs">
+      <DependentUpon>201812181638533_FixedNaming.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLRepository.cs" />
@@ -154,6 +175,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812181117538_InitialRentingTry.resx">
       <DependentUpon>201812181117538_InitialRentingTry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812181503157_ImpovedDataAnnotations.resx">
+      <DependentUpon>201812181503157_ImpovedDataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812181624153_TestMigration.resx">
+      <DependentUpon>201812181624153_TestMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812181627299_CarImageNotRequiredAnymoreAndRangeForProductionYearAdded.resx">
+      <DependentUpon>201812181627299_CarImageNotRequiredAnymoreAndRangeForProductionYearAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812181636501_AddedDisplayNames.resx">
+      <DependentUpon>201812181636501_AddedDisplayNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812181638533_FixedNaming.resx">
+      <DependentUpon>201812181638533_FixedNaming.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
