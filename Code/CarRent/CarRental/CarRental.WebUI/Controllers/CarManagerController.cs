@@ -51,6 +51,8 @@ namespace CarRental.WebUI.Controllers
                     car.Image = car.Id + Path.GetExtension(file.FileName);
                     file.SaveAs(Server.MapPath("//Context/CarImages//") + car.Image);
                 }
+
+                car.Name = $"{car.Manufacturer} {car.Model}";
                 context.Insert(car);
                 context.Commit();
 
@@ -103,7 +105,7 @@ namespace CarRental.WebUI.Controllers
             {
                 if (!ModelState.IsValid)
                 {
-                    return View(car);
+                    return View();
                 }
 
                 if (file != null)
@@ -118,6 +120,7 @@ namespace CarRental.WebUI.Controllers
                 carToEdit.Color = car.Color;
                 carToEdit.Type = car.Type;
                 carToEdit.PricePerDay = car.PricePerDay;
+                carToEdit.Name = $"{car.Manufacturer} {car.Model}";
 
                 context.Commit();
 

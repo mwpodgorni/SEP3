@@ -23,11 +23,9 @@ namespace CarRental.Core.Models
         public string LastName { get; set; }
 
         [Required]
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
         [EmailAddress(ErrorMessage = "The email address is not valid")]
         public string Email { get; set; }
 
-        [Required]
         public Address Address { get; set; }
 
         [Required]

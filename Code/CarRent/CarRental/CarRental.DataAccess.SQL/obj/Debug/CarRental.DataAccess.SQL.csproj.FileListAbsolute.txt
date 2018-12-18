@@ -73,3 +73,7 @@ E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Deb
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.CarImageNotRequiredAnymoreAndRangeForProductionYearAdded.resources
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.AddedDisplayNames.resources
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.FixedNaming.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.CreatedRentViewModel.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.AddedNameForCars.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.UpdatedEmail.resources
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.DataAccess.SQL\obj\Debug\CarRental.DataAccess.SQL.Migrations.UpdatedAddress.resources

@@ -6,10 +6,12 @@ using System.Web;
 using System.Web.Mvc;
 using CarRental.Core.Contracts;
 using CarRental.Core.Models;
+using CarRental.Core.ViewModels;
 using CarRental.DataAccess.SQL;
 
 namespace CarRental.WebUI.Controllers
 {
+    [Authorize]
     public class RentsController : Controller
     {
         IRepository<Rent> context;
@@ -33,47 +35,38 @@ namespace CarRental.WebUI.Controllers
 
         public ActionResult Create()
         {
-            Rent rent = new Rent();
+            RentViewModel viewModel = new RentViewModel();
+            
+            viewModel.Rent = new Rent();
+            //viewModel.Customer = customers.Collection().SingleOrDefault(c => c.Email.Equals(User.Identity.Name));
+            viewModel.Cars = cars.Collection();
 
-            rent.Car = new Car();
-            //rent.Customer = new Customer();
-
-            return View(rent);
+            return View(viewModel);
         }
 
         [HttpPost]
-        public ActionResult Create(string id, Rent viewRent)
+        public ActionResult Create(Rent rent)
         {
-            if (!ModelState.IsValid)
-                return View();
+            //if (!ModelState.IsValid)
+            //{
+            //    return Content("Model State is invalid!");
+            //}
+            //else
+            //{
+                rent.Customer = customers.Collection().SingleOrDefault(c => c.Email.Equals(User.Identity.Name));
+                context.Insert(rent);
+            try
+            {
+                context.Commit();
+            }
+            catch (DbEntityValidationException e)
+            {
+                Console.WriteLine(e);
+            }
+            //}
 
-            var carToRent = cars.Find(id);
-
-            if (carToRent == null)
-                return Content("Car not found!");
-
-            var rent = new Rent();
-
-            
-            rent.Car = carToRent;
-            rent.StartDate = viewRent.StartDate;
-            rent.EndDate = viewRent.EndDate;
-
-            var customer = customers.Collection().SingleOrDefault(c => c.Email == User.Identity.Name);
-
-            if (customer == null)
-                return Content("Customer not found!");
-
-            rent.Customer = customer;
-
-            context.Insert(rent);
-           
-            context.Commit();
-            
-
-            return RedirectToAction("Index","Rents");
+            return RedirectToAction("Index");
         }
-
         //[HttpPost]
         //public ActionResult Create(Rent rent)
         //{

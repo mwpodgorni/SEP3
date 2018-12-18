@@ -21,6 +21,10 @@ namespace CarRental.Core.Models
         [Required]
         public string Model { get; set; }
 
+        [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
+        [StringLength(40, MinimumLength = 2, ErrorMessage = "Name is too short!")]
+        public string Name { get; set; }
+
         [Required]
         [Range(1885, int.MaxValue)]
         [DisplayName("Production Year")]
@@ -42,6 +46,11 @@ namespace CarRental.Core.Models
 
         //[Required]
         public string Image { get; set; }
+
+        public string GetName()
+        {
+            return $"{Manufacturer} {Model}";
+        }
 
     }
 }
