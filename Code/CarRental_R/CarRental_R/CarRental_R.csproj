@@ -203,15 +203,16 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\BankTransfer.cs" />
+    <Compile Include="Models\BaseEntity.cs" />
+    <Compile Include="Models\PaymentMethod\BankTransfer.cs" />
     <Compile Include="Models\Car.cs" />
-    <Compile Include="Models\Cash.cs" />
-    <Compile Include="Models\CreditCard.cs" />
+    <Compile Include="Models\PaymentMethod\Cash.cs" />
+    <Compile Include="Models\PaymentMethod\CreditCard.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\MobilePay.cs" />
+    <Compile Include="Models\PaymentMethod\MobilePay.cs" />
     <Compile Include="Models\Payment.cs" />
     <Compile Include="Models\RegisteredCustomer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

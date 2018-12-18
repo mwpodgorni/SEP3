@@ -17,7 +17,7 @@ namespace CarRental.Core.Models
         public string Color { get; set; }
         [DisplayName("Car Type")]
         public string Type { get; set; }
-        public decimal Price { get; set; }
+        public double PricePerDay { get; set; }
         public string Image { get; set; }
 
     }

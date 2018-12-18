@@ -255,6 +255,10 @@
     <Compile Include="Migrations\201812171244443_AddedAddressToCustomer.Designer.cs">
       <DependentUpon>201812171244443_AddedAddressToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812181117409_InitialRentingTry.cs" />
+    <Compile Include="Migrations\201812181117409_InitialRentingTry.Designer.cs">
+      <DependentUpon>201812181117409_InitialRentingTry.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -418,6 +422,7 @@
     <Content Include="Views\Home\Details.cshtml" />
     <Content Include="Views\Rents\Index.cshtml" />
     <Content Include="Views\Rents\Create.cshtml" />
+    <Content Include="Views\Home\Rent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -456,6 +461,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812171244443_AddedAddressToCustomer.resx">
       <DependentUpon>201812171244443_AddedAddressToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812181117409_InitialRentingTry.resx">
+      <DependentUpon>201812181117409_InitialRentingTry.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

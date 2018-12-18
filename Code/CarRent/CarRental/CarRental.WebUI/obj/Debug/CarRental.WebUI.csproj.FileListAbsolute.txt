@@ -447,3 +447,4 @@ E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.WebUI\bin\System.Web.H
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.WebUI\obj\Debug\CarRental.WebUI.Migrations.AddedAddressToCustomer.resources
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.WebUI\bin\AutoMapper.dll
 E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.WebUI\bin\AutoMapper.xml
+E:\SemesterProject3\SEP3\Code\CarRent\CarRental\CarRental.WebUI\obj\Debug\CarRental.WebUI.Migrations.InitialRentingTry.resources

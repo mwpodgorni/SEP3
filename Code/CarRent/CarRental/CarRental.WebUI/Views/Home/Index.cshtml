@@ -1,4 +1,5 @@
-﻿@model CarRental.Core.ViewModels.CarListViewModel
+﻿@using CarRental.WebUI.Controllers
+@model CarRental.Core.ViewModels.CarListViewModel
 @{
     ViewBag.Title = "Home Page";
 }
@@ -21,7 +22,7 @@
     @foreach (var car in Model.Cars)
     {
 
-        <div class="col-md-6" style="height:450px;padding:10px;border:solid thin whitesmoke">
+        <div class="col-md-6" style="height:450px;padding:10px;">
             <div class="col-md-12">
                 <img class="img" style="height:250px" src="~/Content/CarImages/@car.Image" />
             </div>
@@ -32,7 +33,7 @@
                 <h4>@car.Type</h4>
             </div>
             <div class="col-md-12">
-                <a href="#" class="btn btn-default">Rent</a>
+                <p>@Html.ActionLink("Rent", "Rent" , new { Id = car.Id})</p>
             </div>
         </div>
     }

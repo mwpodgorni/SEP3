@@ -23,7 +23,7 @@ namespace CarRental.Core.Models
 
         public double GetPrice()
         {
-            return ((EndDate - StartDate).TotalHours) * (double)Car.Price;
+            return ((EndDate - StartDate).TotalHours) * (double)Car.PricePerDay;
         }
 
     }

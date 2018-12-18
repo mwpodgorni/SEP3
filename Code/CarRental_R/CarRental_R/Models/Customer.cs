@@ -6,15 +6,14 @@ using System.Web;
 
 namespace CarRental_R.Models
 {
-    public class Customer
+    public class Customer : BaseEntity
     {
-       [Key] public string IdNumber { get; set; }
         [Required]
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
         [Required]
-        public int Age { get; set; }
+        public DateTime DoB { get; set; }
         [Required]
         public string Email { get; set; }
         [Required]
@@ -31,6 +30,6 @@ namespace CarRental_R.Models
         public string DateOfIssue { get; set; }
         [Required]
         public string ExpiryDate{ get; set; }
-        public string Password { get; set; }
+        //public string Password { get; set; }
     }
 }

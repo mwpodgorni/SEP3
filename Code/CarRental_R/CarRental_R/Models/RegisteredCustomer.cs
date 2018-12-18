@@ -7,7 +7,9 @@ using System.Web;
 namespace CarRental_R.Models
 {
     public class RegisteredCustomer : Customer
-    {
+    { 
+        [Required]
+        public string Username { get; set; }
         [Required]
         public string Password { get; set; }
     }

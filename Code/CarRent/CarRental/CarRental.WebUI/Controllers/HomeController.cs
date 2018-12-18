@@ -69,5 +69,22 @@ namespace CarRental.WebUI.Controllers
 
             return View();
         }
+
+        //public ActionResult Rent(string Id)
+        //{
+        //    var carToRent = context.Find(Id);
+        //    var rent = new Rent();
+
+
+
+        //    if (carToRent == null)
+        //        return Content($"Car not found!");
+
+        //    return RedirectToAction("Create","Rents");
+        //}
+        public ActionResult Rent(string id)
+        {
+            return RedirectToAction("Create", "Rents");
+        }
     }
 }

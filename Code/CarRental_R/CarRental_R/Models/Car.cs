@@ -6,9 +6,9 @@ using System.Web;
 
 namespace CarRental_R.Models
 {
-    public class Car
+    public class Car : BaseEntity
     {
-        [Key] public string PlatesNumber { get; set; }
+        public string PlatesNumber { get; set; }
         public string Type { get; set; }
         public string Color { get; set; }
         public string FuelType { get; set; }
