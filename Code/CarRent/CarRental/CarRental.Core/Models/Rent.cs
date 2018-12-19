@@ -10,8 +10,10 @@ namespace CarRental.Core.Models
 {
     public class Rent : BaseEntity
     {
+        
         public Customer Customer { get; set; }
 
+        
         public Car Car { get; set; }
 
         [DataType(DataType.Date)]

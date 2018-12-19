@@ -18,7 +18,8 @@ namespace CarRental.WebUI.Controllers
         IRepository<Car> cars;
         IRepository<Customer> customers;
 
-        public RentsController(IRepository<Rent> rentContext, IRepository<Car> carContext, IRepository<Customer> customerContext)
+        public RentsController(IRepository<Rent> rentContext, IRepository<Car> carContext,
+            IRepository<Customer> customerContext)
         {
             this.context = rentContext;
             this.cars = carContext;
@@ -35,9 +36,8 @@ namespace CarRental.WebUI.Controllers
 
         public ActionResult Create()
         {
-            RentViewModel viewModel = new RentViewModel();
-            
-            viewModel.Rent = new Rent();
+            var viewModel = new RentViewModel();
+
             //viewModel.Customer = customers.Collection().SingleOrDefault(c => c.Email.Equals(User.Identity.Name));
             viewModel.Cars = cars.Collection();
 
@@ -53,7 +53,8 @@ namespace CarRental.WebUI.Controllers
             //}
             //else
             //{
-                rent.Customer = customers.Collection().SingleOrDefault(c => c.Email.Equals(User.Identity.Name));
+                //rent.Customer = customers.Collection().SingleOrDefault(c => c.Email.Equals(User.Identity.Name));
+                //rent.Price = rent.GetPrice();
                 context.Insert(rent);
             try
             {
@@ -63,22 +64,9 @@ namespace CarRental.WebUI.Controllers
             {
                 Console.WriteLine(e);
             }
+
+                return RedirectToAction("Index");
             //}
-
-            return RedirectToAction("Index");
         }
-        //[HttpPost]
-        //public ActionResult Create(Rent rent)
-        //{
-        //    if (!ModelState.IsValid)
-        //        return View(rent);
-
-        //    context.Rents.Add(rent);
-        //    context.SaveChanges();
-
-        //    return RedirectToAction("Index");
-        //}
-
-
     }
 }

@@ -23,6 +23,11 @@ namespace CarRental.Core.ViewModels
         //[DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         //public DateTimeOffset EndDate { get; set; }
 
+        public RentViewModel()
+        {
+            Rent = new Rent();
+            Customer = new Customer();
+        }
 
     }
 }
